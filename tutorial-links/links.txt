@@ -1,0 +1,18 @@
+1. https://www.tutorialkart.com/nodejs/nodejs-mysql-delete/
+2. https://jasonwatmore.com/post/2020/08/18/nodejs-mysql-simple-api-for-authentication-registration-and-user-management
+3. https://arctype.com/blog/rest-api-tutorial/ ---- api with nodejs and mysql
+4. https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions#:~:text=The%20two%20types%20of%20API,Synchronous%2C%20blocking%20functions
+5. https://www.tutsmake.com/node-js-express-upload-file-image-example/
+6.* - Api in mysql -youtube- sequelize-- https://jasonwatmore.com/post/2020/08/18/nodejs-mysql-simple-api-for-authentication-registration-and-user-management
+7.* https://www.bezkoder.com/node-js-express-login-example/
+8.* - validation link - https://strapengine.com/rest-api-input-validation-in-nodejs/#:~:text=Most%20of%20the%20time%20when,to%20a%20specific%20predefined%20format.
+9.**** -https://www.youtube.com/c/Codevolution/playlists  
+10** -https://www.youtube.com/c/yoursTRULY267
+11.   token  https://www.geeksforgeeks.org/how-to-create-and-verify-jwts-with-node-js/
+12******** very imp - link - https://www.freecodecamp.org/news/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52/
+13 **** ---- technical babaji -- https://www.youtube.com/watch?v=WfCJ3sHnLBM   -- important link for api in nodejs and mysql
+
+
+
+
+

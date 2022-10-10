@@ -1,0 +1,4 @@
+cd pathname(filename,foldername) -- for selecting anypath and goto to the file or folder
+mkdir - make directroy for creating a new folder
+type nul > index.js ---- this command is used to create a file 
+ 

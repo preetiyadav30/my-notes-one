@@ -1,0 +1,13 @@
+cd pathname(filename,foldername) -- for selecting anypath and goto to the file or folder
+
+mkdir - make directroy for creating a new folder
+
+echo > "File.txt" to create a new .txt file in the current directory.
+
+for installing nodemon ====== npm install --save-dev nodemon 
+and write  inside your package.json =======
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+
+package for validate api npm install @hapi/joi
