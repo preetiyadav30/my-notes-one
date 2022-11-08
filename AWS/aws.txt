@@ -1,0 +1,27 @@
+1   https://www.youtube.com/watch?v=7Gym2XVcA5A -----------  link tutorial how to deplyed data of ec2 instance 
+database is mysql 
+
+    
+    https://www.youtube.com/watch?v=qor31Egu0Rg ----------- add domain with ec2
+
+2   https://www.youtube.com/watch?v=iJ3cM2BdPl8  ---------- add momgodb to ec2 
+
+3   https://www.youtube.com/watch?v=bWPTq8z1vFY  ---------- ssl certificate
+
+4   https://www.youtube.com/watch?v=H6eWndA44RU ---------- ssl certificate and domain
+
+5   https://www.youtube.com/watch?v=JQP96EjRM98 --------- very importent link for ssl certificate and load balacer
+
+6   https://www.youtube.com/watch?v=7vf210p2tJg ---------- nodejs , mongodb, filezila 
+
+7   https://www.youtube.com/watch?v=td6tE6veQ0M ---------- how to add git on ec2
+
+8   https://www.youtube.com/watch?v=HhfnuGcB3wc --------- install mongodb on ec2
+
+9   how to install mongodb on ubuntu 22.04   ---------- install mongodnb ****
+
+10  https://youtu.be/f52IOtTqcP8  ------ link of putty
+
+https://www.youtube.com/channel/UCBdfli20jrAscmR9COL35qg ------ link for aws
+
+https://www.youtube.com/watch?v=VSy5_cHD1qA ---------Configure nginx and apache2 server on Ubuntu 20.04 LTS

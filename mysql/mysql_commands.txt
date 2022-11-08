@@ -691,7 +691,7 @@ using alter table we can add- colunm, datatype,constrains , drop - colunm , rena
 modify - position , name  , set the position of auto_increment also
 
 alter table pg_per drop Full_Name; ---- for delete perticuler colunm
-alter table pg_per change fullname Full_Name varchar(40); ---- for change the colunm_name
+     ---- for change the colunm_name
 alter table pg_percentage rename pg_per; ---- for change the table_name
 alter table pg_percentage add unique (fullname); ---- for add constrains
 alter table pg_percentage add name varchar(40); ---- for add  new colunm
@@ -709,3 +709,4 @@ index in mysql ---- use to search data fast
 create index index_name on table_name(colunm_name,colunm_name);
 drop index index_name;
 show index from table_name;
+drop database preeti; ============ database drop db- preeti

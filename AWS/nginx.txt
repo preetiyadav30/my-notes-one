@@ -1,0 +1,23 @@
+1- sudo systemctl restart nginx
+2- sudo service nginx restart
+3- sudo /etc/init.d/nginx restart
+4- sudo systemctl start nginx 
+5- sudo systemctl stop nginx 
+6- sudo systemctl restart nginx
+sudo /etc/init.d/nginx start
+sudo /etc/init.d/nginx stop
+sudo /etc/init.d/nginx restart
+sudo nginx -s reload
+sudo systemctl reload nginx
+sudo service nginx reload
+
+Dealing with error messages on screen
+If the nginx server failed to start or stop or restart, check for the syntax error:
+
+nginx -t
+## OR set path to config file and test for the errors ##
+nginx -c /etc/nginx/nginx.conf -t
+//  check errors in error.log
+sudo tail -f /var/log/nginx/error.log 
+2015/03/19 02:49:30 [emerg] 43130#0: getpwnam("nginxf") failed in /etc/nginx/nginx.conf:2
+2015/03/19 02:49:44 [emerg] 43145#0: getpwnam("nginxf") failed in /etc/nginx/nginx.conf:2

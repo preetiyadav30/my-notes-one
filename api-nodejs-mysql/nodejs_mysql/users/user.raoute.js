@@ -19,10 +19,17 @@ const path = require("path");
 // })
 
 router.post("/addUser",verifyToken,addUserValidation,createUser);
-router.get("/getUserData",getUserData);
-router.get("/getUserData/:id",verifyToken,getUserDataById);
+// router.get("/getUserData",verifyToken,getUserData);
+// router.get("/getUserData/:id",verifyToken,getUserDataById);
 router.patch("/updateUserData",verifyToken,updateUserData);
 router.delete("/deleteUserData",verifyToken,deleteUserData);
 router.post("/login",login);
+
+// router.post("/addUser",addUserValidation,createUser);
+router.get("/getUserData",getUserData);
+router.get("/getUserData/:id",getUserDataById);
+// router.patch("/updateUserData",updateUserData);
+// router.delete("/deleteUserData",deleteUserData);
+// router.post("/login",login);
 
 module.exports=router;

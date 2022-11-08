@@ -161,6 +161,64 @@ app.post("/matched-password",(req,res)=>{
    })
 })
 
+const adminLogin = async (req, res, next) => {
+    try {
+        const body = req.body;
+        await db.query(`select*from admin where username=? and email=? and password=?`, [body.username, body.email, body.password], (err, result, feilds) => {
+            if (err) {
+                res.status(400).send({
+                    success: false,
+                    err: err
+                })
+            }
+            if (!result) {
+                res.status(404).send({
+                    success: false,
+                    msg: "Admin not found with this email and password"
+                });
+            }
+            else {
+                const results = compareSync(body.password, result.password);
+                if (results) {
+                    result.password = undefined;
+                    const token = req.headers.authorization;
+                    if (!token) {
+                        res.status(404).send({
+                            success: false,
+                            msg: "token not provided"
+                        });
+                    } else {
+                        jwt.verify(token, process.env.JWT_SECRET_KEY, (jwterr, jwtresult) => {
+                            if (jwterr) {
+                                res.status(400).send({
+                                    success: false,
+                                    err: jwterr
+                                });
+                            } else {
+                                res.status(200).send({
+                                    success: true,
+                                    result: jwtresult,
+                                    msg: "login successully"
+                                })
+                            }
+                        })
+                    }
+                } else {
+                    res.status(401).send({
+                        success: false,
+                        msg: "invalid email or password"
+                    })
+                }
+            }
+        })
+    } catch (error) {
+        res.status(500).send({
+            success: false,
+            err: error
+        })
+    }
+}
+
 app.listen(4040,()=>{
     console.log("server is running on 4040");
 });

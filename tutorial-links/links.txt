@@ -11,8 +11,22 @@
 11.   token  https://www.geeksforgeeks.org/how-to-create-and-verify-jwts-with-node-js/
 12******** very imp - link - https://www.freecodecamp.org/news/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52/
 13 **** ---- technical babaji -- https://www.youtube.com/watch?v=WfCJ3sHnLBM   -- important link for api in nodejs and mysql
+14**   https://blog.udemy.com/node-js-project-ideas/ --- ideas for nodejs projects
+15**
 
 
 
 
 
+Portfolio App
+Books Directory
+Real-time chat apps
+Video Streaming Platform
+Basic users system
+Web Security
+Email Sender
+Real-time collaboration apps
+Natural Language Processing (NLP)
+To-Do List
+Job Search App
+Build Your Zoom

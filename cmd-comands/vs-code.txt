@@ -11,3 +11,9 @@ and write  inside your package.json =======
   },
 
 package for validate api npm install @hapi/joi
+
+npx kill-port 3000 --------- for killing port
+
+ npm uninstall node_modules
+
+ npm cache clear --force
